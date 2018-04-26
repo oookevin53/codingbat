@@ -7,4 +7,4 @@ def xyz_there(str):
     count_xyz = str.count("xyz")
     count_periods = str.count(".xyz")
 
-    return True if count_xyz != count_periods else False
+    return True if count_xyz > count_periods else False
